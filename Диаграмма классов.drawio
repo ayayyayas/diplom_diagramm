@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net">
   <diagram id="PsLZuMKxNudjANXOpSOp" name="Страница-1">
-    <mxGraphModel dx="691" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dpjCLb9Lga3jOav2MTA3-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Product" vertex="1">
+        <mxCell id="dpjCLb9Lga3jOav2MTA3-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;" value="Product" vertex="1">
           <mxGeometry height="146" width="160" x="180" y="160" as="geometry" />
         </mxCell>
         <mxCell id="dpjCLb9Lga3jOav2MTA3-37" parent="dpjCLb9Lga3jOav2MTA3-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Id: int&lt;div&gt;+ Name: string&lt;/div&gt;&lt;div&gt;+ Category: string&lt;/div&gt;&lt;div&gt;+ PurchasePrice: decimal&lt;/div&gt;&lt;div&gt;+ SellingPrice: decimal&lt;br&gt;+ StockQuantity: int&lt;/div&gt;" vertex="1">
@@ -13,13 +13,13 @@
         <mxCell id="dpjCLb9Lga3jOav2MTA3-38" parent="dpjCLb9Lga3jOav2MTA3-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ UpdateStock()" vertex="1">
           <mxGeometry height="26" width="160" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="dpjCLb9Lga3jOav2MTA3-43" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="OrderProduct" vertex="1">
+        <mxCell id="dpjCLb9Lga3jOav2MTA3-43" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;" value="OrderProduct" vertex="1">
           <mxGeometry height="100" width="140" x="190" y="410" as="geometry" />
         </mxCell>
         <mxCell id="dpjCLb9Lga3jOav2MTA3-46" parent="dpjCLb9Lga3jOav2MTA3-43" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ OrderId: int&lt;div&gt;+ ProductId: int&lt;/div&gt;&lt;div&gt;+ Quantity: int&lt;/div&gt;&lt;div&gt;+ UnitPrice: decimal&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="74" width="140" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="dpjCLb9Lga3jOav2MTA3-47" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Order" vertex="1">
+        <mxCell id="dpjCLb9Lga3jOav2MTA3-47" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;" value="Order" vertex="1">
           <mxGeometry height="136" width="140" x="440" y="400" as="geometry" />
         </mxCell>
         <mxCell id="dpjCLb9Lga3jOav2MTA3-48" parent="dpjCLb9Lga3jOav2MTA3-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Id: int&lt;div&gt;+ OrdeDate: DateTime&lt;/div&gt;&lt;div&gt;+ CustomerId: int&lt;/div&gt;&lt;div&gt;+ TotalAmount: decimal&lt;/div&gt;&lt;div&gt;+ Status: bool&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
